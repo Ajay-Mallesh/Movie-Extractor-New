@@ -47,40 +47,40 @@ Audio Format
 
 Here’s how the script would extract details from the given filename:
 
-Filename:
-www.1TamilMV.bike - MAX (2025) Kannada HQ HDRip - 720p - x264 - (DD+5.1 - 192Kbps & AAC) - 1.2GB - ESub.mkv
+- * Filename:
+- www.1TamilMV.bike - MAX (2025) Kannada HQ HDRip - 720p - x264 - (DD+5.1 - 192Kbps & AAC) - 1.2GB - ESub.mkv
 
-Extracted Details:
+- - Extracted Details:
 
-Attribute	Extracted Value
-Movie Name	MAX
-Year	2025
-Format	HQ HDRip - 720p
-Encoding	x264
-Languages	Kannada
-Audio	DD+5.1 - 192Kbps & AAC
-Size	1.2 GB
-Subtitles	Yes (ESub)
+- Attribute	Extracted Value
+- Movie Name	MAX
+- Year	2025
+- Format	HQ HDRip - 720p
+- Encoding	x264
+- Languages	Kannada
+- Audio	DD+5.1 - 192Kbps & AAC
+- Size	1.2 GB
+- Subtitles	Yes (ESub)
 
 
 - 
-Filename:
-www.1TamilMV.bike - Madurai Paiyanum Chennai Ponnum (2025) S01 EP (01-03) Tamil TRUE WEB-DL - 720p - AVC - AAC - 600MB - ESub.mkv
+- * Filename:
+- www.1TamilMV.bike - Madurai Paiyanum Chennai Ponnum (2025) S01 EP (01-03) Tamil TRUE WEB-DL - 720p - AVC - AAC - 600MB - ESub.mkv
 
-Extracted Details:
-Attribute	Extracted Value
-Show Name	Madurai Paiyanum Chennai Ponnum
-Year	2025
-Season	1
-Episodes	01-03
-Format	TRUE WEB-DL - 720p
-Encoding	AVC
-Languages	Tamil
-Audio	AAC
-Size	600 MB
-Subtitles	Yes (ESub)
+- Extracted Details:
+- Attribute	Extracted Value
+- Show Name	Madurai Paiyanum Chennai Ponnum
+- Year	2025
+- Season	1
+- Episodes	01-03
+- Format	TRUE WEB-DL - 720p
+- Encoding	AVC
+- Languages	Tamil
+- Audio	AAC
+- Size	600 MB
+- Subtitles	Yes (ESub)
 
-Notes:
+- - Notes:
 The script correctly identifies this as a TV show (Season 1, Episodes 01-03).
 It extracts video format (TRUE WEB-DL - 720p) and encoding (AVC).
 Language (Tamil) and Audio (AAC) are also detected.
