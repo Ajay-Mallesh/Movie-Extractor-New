@@ -5,13 +5,16 @@ Movie Organizer Script Documentation
 Overview
 This script extracts details from movie filenames and organizes them into an Excel database while identifying duplicates. It supports various file formats, encodings, audio types, and multiple languages.
 
-Features
+- -> Features
 
-Extracts Movie Name, Year, Format, Encoding, Languages, Audio Format, Season, Episode, and File Size.
-Detects duplicates and stores them separately.
-Saves movie details in Movies.xlsx and duplicates in Duplicates.xlsx.
-Supports .mkv, .mp4, and .avi file types.
--> File Parsing Rules
+- Extracts Movie Name, Year, Format,
+- Encoding, Languages, Audio Format,
+- Season, Episode, and File Size.
+- Detects duplicates and stores them separately.
+- Saves movie details in Movies.xlsx and duplicates in Duplicates.xlsx.
+- Supports .mkv, .mp4, and .avi file types.
+
+- -> File Parsing Rules
 - Movie Name & Year Extracted from Movie Name (Year).
 - If year is missing, it's inferred from numbers in the filename.
 -> Video Format
@@ -24,7 +27,8 @@ Audio Format
 - Recognizes formats like DD+5.1, Dolby Atmos, AAC, 320Kbps.
 -> TV Shows
 - Detects Seasons (S01) and Episodes (E05).
--> File Size
+  
+- -> File Size
 - Reads the actual file size (in GB/MB) using os.path.getsize().
 ** Workflow **
 - Extract movie details from filenames.
