@@ -110,7 +110,7 @@ def save_to_excel(new_movies, df_movies, df_duplicates):
 
 
 if __name__ == "__main__":
-    directory = r"F:\MOVIES\1"
+    directory = r"F:\VIJAY MOVIES"
     new_movies, df_movies, df_duplicates = process_movie_files(directory)
     save_to_excel(new_movies, df_movies, df_duplicates)
     print("Processing complete. Check Movies.xlsx and Duplicates.xlsx.")
